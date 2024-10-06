@@ -1,10 +1,10 @@
 @font-face {
     font-family: PPNeueMachina;
-    src: url(/fonts/PPNeueMachina-InktrapLightItalic.otf);
+    src: url(fonts/PPNeueMachina-InktrapLightItalic.otf);
 }
 @font-face {
     font-family: Chadena;
-    src: url(/fonts/chadena.otf);
+    src: url(fonts/chadena.otf);
 
 }
 *{
