@@ -1,0 +1,79 @@
+@font-face {
+    font-family: PPNeueMachina;
+    src: url(/fonts/PPNeueMachina-InktrapLightItalic.otf);
+}
+@font-face {
+    font-family: Chadena;
+    src: url(/fonts/chadena.otf);
+
+}
+*{
+    cursor: pointer;
+}
+body{
+    background-image:url(images/background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.texttrans{
+    background-image: url(images/textopacity.gif);
+    background-size: 500px ;
+    background-clip: text;
+    background-repeat: no-repeat;
+    font-size: 100px;
+    color: transparent;
+    background-position: 50%;
+    font-family:Chadena;
+    padding-top: 0%;
+    margin-top: 0%;
+    
+}   
+.main{
+    margin-top: 30vh;
+
+}
+.tagline{
+    font-family:PPNeueMachina;
+    font-size: 18px;
+}
+.logo{
+    border-radius: 100%
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+.navbar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.navbar ul li {
+    margin-left: 20px;
+}
+
+.navbar ul li a {
+    color: black;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.navbar ul li a:hover {
+    color: hsl(75, 100%, 86%);
+    transition: opacity 0.2s ease;
+}
+.navbar ul li a::after {
+    content: ' ↗'; 
+    color: hsl(75, 100%, 86%);
+    opacity: 0; 
+    transition: opacity 0.2s ease;
+}
+
+.navbar ul li a:hover::before,
+.navbar ul li a:hover::after {
+    opacity: 1;
+}

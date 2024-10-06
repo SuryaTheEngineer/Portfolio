@@ -1,3 +1,8 @@
 Adding moving background
 adding more elements
 adding Favicon
+add a random generated background gradient
+add a header bar
+add a Logo
+About Page
+A Custom Pointer
