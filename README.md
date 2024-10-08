@@ -1,4 +1,4 @@
- # 💼 Personal Portfolio - Surya
+ # ⚡ Personal Portfolio - Surya
 Welcome to my personal portfolio! This website is a showcase of my skills, projects, and experiences as a passionate developer and problem-solver. From coding to design, it highlights my journey and growth in the tech world.
 
 ### 🌟 What You'll Find:
